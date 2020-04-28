@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments.html :: headerfiles"></head>
+<body>
+<header th:insert="fragments.html :: nav"></header>
+<!-- Page content goes here -->
+<div class="container">
+    <div style="width:800px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;">
+        <div class="card">
+            <div class="card-header text-center">
+                <i class="far fa-warehouse-alt"></i> Please provide required information to previous BOM
+            </div>
+           <!-- <div class="card-block" style="padding: 24px;">-->
+                <form name="f" th:action="@{~/management/uploadprevBoM}" enctype="multipart/form-data" method="post">
+                    <!--<fieldset>-->
+                        <!-- Thymeleaf + Spring Security error display -->
+	  					<div class="form-group form-inline row flex-v-center">
+						<label class="control-label col-md-3">Module Number of BoM from SAP :</label>
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="module" name="module"
+                                   placeholder="module">
+						</div>
+					</div>
+					<div class="form-group form-inline row flex-v-center">
+						<label class="control-label col-md-3">Upload Previous BoM from SAP :</label>
+						<div class="col-md-7">
+							<input type="file" name="file" />
+						</div>
+					</div>
+					<div>
+						<div class="form-group">
+							<input type="submit" value="Upload previous BoM" />
+						</div>
+					</div>
+                    <!--</fieldset>-->
+                </form>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div style="width:800px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;">
+        <div class="card">
+            <div class="card-header text-center">
+                <i class="far fa-warehouse-alt"></i> Please upload Material Master here
+            </div>
+           <!-- <div class="card-block" style="padding: 24px;">-->
+                <form name="f" th:action="@{~/management/uploadMm}" enctype="multipart/form-data" method="post">
+                    <div class="form-group form-inline row flex-v-center">
+						<label class="control-label col-md-3">Upload Material Master from SAP :</label>
+						<div class="col-md-7">
+							<input type="file" name="file" />
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Upload Material Master" />
+					</div>
+                    <!--</fieldset>-->
+                </form>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div style="width:800px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;">
+        <div class="card">
+            <div class="card-header text-center">
+                <i class="far fa-warehouse-alt"></i> Please upload UOM conversion here
+            </div>
+           <!-- <div class="card-block" style="padding: 24px;">-->
+                <form name="f" th:action="@{~/management/uploadAltUoM}" enctype="multipart/form-data" method="post">
+                    <!--<fieldset>-->
+                        <!-- Thymeleaf + Spring Security error display -->
+	  					<div class="form-group form-inline row flex-v-center">
+						<label class="control-label col-md-3">Upload UoM Conversion from SAP :</label>
+						<div class="col-md-7">
+							<input type="file" name="file" />
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Upload Alt UoM" />
+					</div>
+                    <!--</fieldset>-->
+                </form>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

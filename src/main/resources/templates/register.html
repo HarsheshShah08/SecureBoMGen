@@ -1,0 +1,62 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:insert="fragments.html :: headerfiles">
+    <title>New User Registration</title>
+</head>
+<body>
+<header th:insert="fragments.html :: nav"></header>
+<div class="container">
+    <div style="width:600px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;">
+        <div class="card">
+            <div class="card-header">
+                <i class="fa fa-user"></i> Please register new user
+            </div>
+            <div class="card-block" style="padding: 24px;">
+                <form name="f" th:action="@{/save-user}"  method="post">
+                
+	                 <div th:if="${message}" th:text="${message}" th:class="${'alert ' + alertClass}">
+	                 </div>
+	                 
+                    <fieldset>
+							<h3>New Registration</h3>
+						<hr>
+						
+							<input type="hidden" name="id" value="${user.id }" />
+								<div class="form-group">
+									
+							<div class="form-group">
+	                            <label for="username">User Name</label>
+	                            <input type="text" class="form-control" id="username" name="username"
+	                                   placeholder="Username" />
+	                        </div>
+	
+	                        <div class="form-group">
+	                            <label for="password">Password</label>
+	                            <input type="password" class="form-control" id="password" name="password"
+	                                   placeholder="Password" />
+	                        </div>
+	                        
+	                        <div class="form-group">
+	                            <label for="password">First Name</label>
+	                            <input type="text" class="form-control" id="firstName" name="firstName"
+	                                   placeholder="firstName" />
+	                        </div>
+	                        
+	                        <div class="form-group">
+	                            <label for="password">Last Name</label>
+	                            <input type="text" class="form-control" id="lastName" name="lastName"
+	                                   placeholder="lastName" />
+	                        </div>
+	                        
+							  <div class="form-actions" style="margin-top: 12px;">
+	                            <button type="submit" class="btn btn-success">Register</button>
+	                        </div>
+
+						</div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
