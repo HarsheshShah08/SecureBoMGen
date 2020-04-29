@@ -47,7 +47,7 @@ class ProfileControllerTest {
 			System.out.println("2");
 			//find the latest version of Test BOM
 			String sTestBoM = "J_TEST"+String.valueOf(i);
-			
+			//Comment added
 			boolean bExist;
 			bExist = boMt1Repository.findByDesign_Module(sTestBoM).isEmpty();
 			while(!bExist) {
