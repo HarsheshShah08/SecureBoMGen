@@ -3,18 +3,13 @@
  Login and New user registration - for all users
  BOM Generation - for permitted user
  Reference Data Upload which includes previous BOM, Material Master, and ALternative UOM Conversion -- for MANAGER permission
- 
+  deployment on AWS
+  
  Future release requires:
  
- Context path change for deployment
+
  ADMIN console for viewing all the users and applying the permission
  workflow for new user authorisation 
- automation testing
- automated deployment
- docker image 
- deployment on AWS
- Integration with Google Authentication Service using Outh2.0
- 
  
  More advance research:
  
