@@ -41,7 +41,7 @@ public class ProfileController {
 	@Autowired
 	InsertPreviousBoM pBoM;
 	
-	private static String UPLOADED_FOLDER = "C:\\files\\";
+	private static String UPLOADED_FOLDER;// = "C:\\files\\";
 	public static String sLoggedUser;
 
     @GetMapping("index")
@@ -66,12 +66,14 @@ public class ProfileController {
 	            MultipartFile file = files[i];
 	            try {
 	                byte[] bytes = file.getBytes();
-	                String final_path = UPLOADED_FOLDER; //-- Hard coded path
+	                String final_path=""; //= UPLOADED_FOLDER; //-- Hard coded path
 	                if(i==0) {
-	                	final_path = final_path + "\\R\\";
+	                	//final_path = final_path + "\\R\\";
+	                	final_path = "R\\";
 	                	CAD = "REVIT";
 	                }else if(i==1){
-	                	final_path = final_path + "\\H\\";
+	                	//final_path = final_path + "\\H\\";
+	                	final_path = "H\\";
 	                	CAD = "HSB";
 	                }
 	                File dir = new File(final_path);
@@ -100,7 +102,7 @@ public class ProfileController {
 	        }
 		
 	        try {
-		        String sap_path = UPLOADED_FOLDER + "SAP\\";
+		        String sap_path = "SAP\\";
 	            File dir = new File(sap_path);
 	            if (!dir.exists())
 	                dir.mkdirs();

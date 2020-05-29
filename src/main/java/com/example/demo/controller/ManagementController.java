@@ -63,7 +63,8 @@ public class ManagementController {
 	            	boolean bSuccess = false;
 	                byte[] bytes = file.getBytes();
 	                String final_path = UPLOADED_FOLDER; //-- Hard coded path
-	                final_path = final_path + "\\SAP\\";
+	                //final_path = final_path + "\\SAP\\";
+	                final_path = "SAP\\";
 	                File dir = new File(final_path);
 	                if (!dir.exists())
 	                    dir.mkdirs();
@@ -112,7 +113,8 @@ public class ManagementController {
 	            try {
 	                byte[] bytes = file.getBytes();
 	                String final_path = UPLOADED_FOLDER; //-- Hard coded path
-	                final_path = final_path + "\\MM\\";
+	                //final_path = final_path + "\\MM\\";
+	                final_path =  "MM\\";
 	                File dir = new File(final_path);
 	                if (!dir.exists())
 	                    dir.mkdirs();
@@ -160,7 +162,8 @@ public class ManagementController {
 	            try {
 	            	byte[] bytes = file.getBytes();
 	                String final_path = UPLOADED_FOLDER; //-- Hard coded path
-	                final_path = final_path + "\\auUoM\\";
+	                //final_path = final_path + "\\auUoM\\";
+	                final_path =  "auUoM\\";
 	                File dir = new File(final_path);
 	                if (!dir.exists())
 	                    dir.mkdirs();
