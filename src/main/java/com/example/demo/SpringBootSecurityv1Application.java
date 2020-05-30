@@ -11,11 +11,15 @@ import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactor
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
+import org.apache.logging.log4j.*;
 
 @SpringBootApplication
 public class SpringBootSecurityv1Application {
 
+	private static final Logger logger=LogManager.getLogger(SpringBootSecurityv1Application.class);
 	public static void main(String[] args) {
+		
+		logger.debug("Start the Spring Boot Application");
 		SpringApplication.run(SpringBootSecurityv1Application.class, args);
 	}
 	
