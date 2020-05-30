@@ -68,7 +68,7 @@ class ProfileControllerTest {
 			Path path_S2 = Paths.get(UPLOADED_FOLDER+ "S\\" + "SAP2.csv"); 
 																			*/
 
-			String path_R = new ClassPathResource("/revit.csv").getPath();
+			String path_R = new ClassPathResource("/Revit.csv").getPath();
 			String path_H = new ClassPathResource("/HSBCAD.csv").getPath();
 			String path_S1 = new ClassPathResource("/SAP1.csv").getPath();
 			String path_S2 = new ClassPathResource("/SAP2.csv").getPath();
