@@ -52,12 +52,12 @@ class ProfileControllerTest {
 		try {
 		
 			System.out.println("1");
-			String UPLOADED_FOLDER = "C:\\files\\test\\";
-			 URL localPackage = this.getClass().getResource("");
-			    URL urlLoader = ProfileControllerTest.class.getProtectionDomain().getCodeSource().getLocation();
-			    String localDir = localPackage.getPath();
-			    String loaderDir = urlLoader.getPath();
-			    String is = new ClassPathResource("/revit.csv").getPath();//InputStream
+			//String UPLOADED_FOLDER = "C:\\files\\test\\";
+			// URL localPackage = this.getClass().getResource("");
+			//    URL urlLoader = ProfileControllerTest.class.getProtectionDomain().getCodeSource().getLocation();
+			//    String localDir = localPackage.getPath();
+			 //   String loaderDir = urlLoader.getPath();
+			//    String is = new ClassPathResource("/revit.csv").getPath();//InputStream
 			    //System.out.printf("loaderDir = %s\n localDir = %s\n", loaderDir, localDir);
 			int i =1;
 			int nBoMv;

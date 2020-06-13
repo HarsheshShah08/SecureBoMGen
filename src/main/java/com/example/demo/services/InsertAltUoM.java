@@ -34,8 +34,10 @@ public class InsertAltUoM {
 			reader = new BufferedReader(new FileReader(path));
 			reader.readLine();
 			String line = "";
+			if(!altUoMRepository.findAll().isEmpty()) {
+				altUoMRepository.deleteAll();
+			}
 			
-			altUoMRepository.deleteAll();
 									
 			while((line = reader.readLine()) != null) {
 	
