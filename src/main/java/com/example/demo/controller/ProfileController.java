@@ -41,7 +41,7 @@ public class ProfileController {
 	@Autowired
 	InsertPreviousBoM pBoM;
 	
-	public static String UPLOADED_FOLDER = System.getProperty("user.dir");// = "C:\\files\\";
+	public static String UPLOADED_FOLDER = System.getProperty("user.dir")+"\\uploads\\";// = "C:\\files\\";
 	public static String sLoggedUser;
 
     @GetMapping("index")
@@ -66,32 +66,23 @@ public class ProfileController {
 	            MultipartFile file = files[i];
 	            try {
 	                byte[] bytes = file.getBytes();
-	                String final_path="";
-	                String final_path1= UPLOADED_FOLDER; //-- Hard coded path
+	                String final_path= UPLOADED_FOLDER; //-- Hard coded path
 	                if(i==0) {
-	                	final_path1 = final_path + "\\R\\";
-	                	final_path = "\\src\\main\\resources\\R\\";
+	                	final_path = final_path+ "\\R\\";
 	                	CAD = "REVIT";
 	                }else if(i==1){
-	                	final_path1 = final_path + "\\H\\";
+	                	final_path = final_path + "\\H\\";
 	                	//final_path = "H\\";
-	                	final_path = "\\src\\main\\resources\\H\\";
 	                	CAD = "HSB";
 	                }
 	                File dir = new File(final_path);
-	                File dir_D = new File(final_path);
-	                if (!dir.exists())
+	    			if (!dir.exists())
 	                    dir.mkdirs();
-	    			Path path = Paths.get(final_path + file.getOriginalFilename());
+	    			Path path= Paths.get(final_path + file.getOriginalFilename());
+	    			System.out.println(path.toString());
 	    			Files.write(path, bytes);
-	    			if (!dir_D.exists())
-	                    dir_D.mkdirs();
-	    			Path path_D = Paths.get(final_path + file.getOriginalFilename());
-	    			Files.write(path_D, bytes);
 	    			
 		            status = status + "You successfully uploaded file=" + file.getOriginalFilename();
-		            System.out.println(path.toString()+" "+path);
-		            System.out.println(path.toString()+" "+path_D);
 		            System.out.println(nMaxI);
 		            nMaxI = bomt1.saveBoM1tData(path.toString(), CAD, bModule, nBoMv, nMaxI, sLoggedUser, reasonForChange);
 		            System.out.println(nMaxI);
@@ -112,7 +103,7 @@ public class ProfileController {
 		
 	        try {
 		        //String sap_path = "SAP\\";
-		        String sap_path = "\\src\\main\\resources\\SAP\\";
+		        String sap_path = UPLOADED_FOLDER+"\\SAP\\";//"\\src\\main\\resources\\SAP\\";
 	            File dir = new File(sap_path);
 	            if (!dir.exists())
 	                dir.mkdirs();

@@ -32,7 +32,6 @@ public class SpringBootSecurityv1Application {
 	public static void main(String[] args) {
 		
 		logger.debug("Start the Spring Boot Application");
-		new File(ProfileController.UPLOADED_FOLDER).mkdir();
 		SpringApplication.run(SpringBootSecurityv1Application.class, args);
 	}
 	

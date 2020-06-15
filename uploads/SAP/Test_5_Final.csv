@@ -1,0 +1,4 @@
+Header Material, Valid From, Alternative BOM, Reason for Change, Base Quantity, Bom Status, Item Number, Item Cat, Component Material, Quantity, Uom, Header_Component, Module Number, BoM Version, Price, Source, Created By, Modified By, Created, Modified, Revision, Valid Component, Valid Header, Valid UoM 
+403-LM-00-F,15.06.2020,1,Generate version 3,1,1,10,L,ACC-0007,1.0,EA,403-LM-00-FACC-0007,Test_5,9,4.0,REVIT,null,null,Mon Jun 15 22:09:12 BST 2020,Mon Jun 15 22:09:12 BST 2020,9,true,false,true,
+403-LM-00-F,15.06.2020,1,Generate version 3,1,1,11,L,TIM-0027,2.0,EA,403-LM-00-FTIM-0027,Test_5,9,4.22,BOTH,null,null,Mon Jun 15 22:09:12 BST 2020,Mon Jun 15 22:09:12 BST 2020,18,true,false,true,
+403-LM-00-F_FLOOR,15.06.2020,1,Generate version 3,1,1,12,L,TIM-0028,1.0,EA,403-LM-00-F_FLOORTIM-0028,Test_5,9,2.71,HSB,null,null,Mon Jun 15 22:09:12 BST 2020,Mon Jun 15 22:09:12 BST 2020,9,true,false,true,

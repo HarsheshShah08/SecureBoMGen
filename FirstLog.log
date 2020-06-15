@@ -11165,3 +11165,130 @@ java.lang.NullPointerException: null
 2020-36-15 19:36:23.979 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 5.35 seconds (JVM running for 114.756)
 2020-36-15 19:36:42.213 [https-jsse-nio-8443-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-36-15 19:36:42.218 [https-jsse-nio-8443-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-50-15 21:50:26.974 [main] INFO  com.example.demo.controller.ProfileControllerTest - Starting ProfileControllerTest on DESKTOP-06092015 with PID 10696 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-50-15 21:50:26.986 [main] DEBUG com.example.demo.controller.ProfileControllerTest - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-50-15 21:50:26.988 [main] INFO  com.example.demo.controller.ProfileControllerTest - The following profiles are active: dev
+2020-50-15 21:50:29.729 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-50-15 21:50:29.730 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-50-15 21:50:29.732 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-50-15 21:50:30.256 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3236 ms
+2020-50-15 21:50:34.400 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-50-15 21:50:36.524 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-50-15 21:50:37.112 [main] INFO  com.example.demo.controller.ProfileControllerTest - Started ProfileControllerTest in 10.519 seconds (JVM running for 13.361)
+2020-50-15 21:50:38.182 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Starting SpringBootSecurityv1ApplicationTests on DESKTOP-06092015 with PID 10696 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-50-15 21:50:38.184 [main] DEBUG com.example.demo.SpringBootSecurityv1ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-50-15 21:50:38.184 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - The following profiles are active: dev
+2020-50-15 21:50:39.264 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-50-15 21:50:40.598 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-50-15 21:50:40.682 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Started SpringBootSecurityv1ApplicationTests in 2.644 seconds (JVM running for 16.93)
+2020-56-15 21:56:23.009 [main] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-56-15 21:56:23.220 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-56-15 21:56:23.484 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-56-15 21:56:23.486 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-56-15 21:56:23.487 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-56-15 21:56:24.987 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-56-15 21:56:24.987 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-56-15 21:56:24.987 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-56-15 21:56:25.458 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1933 ms
+2020-56-15 21:56:27.463 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-56-15 21:56:28.481 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-56-15 21:56:28.981 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-56-15 21:56:28.989 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-56-15 21:56:29.077 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 5.847 seconds (JVM running for 7.557)
+2020-58-15 21:58:33.275 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-58-15 21:58:33.374 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-58-15 21:58:33.375 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-58-15 21:58:33.375 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-58-15 21:58:33.972 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-58-15 21:58:33.973 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-58-15 21:58:33.973 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-58-15 21:58:34.052 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 673 ms
+2020-58-15 21:58:36.175 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-58-15 21:58:36.711 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-58-15 21:58:37.154 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 3.866 seconds (JVM running for 135.635)
+2020-58-15 21:58:46.160 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-58-15 21:58:46.162 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-02-15 22:02:23.611 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-02-15 22:02:23.668 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-02-15 22:02:23.669 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-02-15 22:02:23.669 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-02-15 22:02:24.077 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-02-15 22:02:24.077 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-02-15 22:02:24.078 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-02-15 22:02:24.121 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 450 ms
+2020-02-15 22:02:24.705 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-02-15 22:02:25.288 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-02-15 22:02:25.733 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 2.113 seconds (JVM running for 364.214)
+2020-02-15 22:02:29.805 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-02-15 22:02:29.809 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-15 22:04:23.222 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-04-15 22:04:23.277 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-04-15 22:04:23.278 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-15 22:04:23.278 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-04-15 22:04:23.727 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-04-15 22:04:23.727 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-04-15 22:04:23.727 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-04-15 22:04:23.767 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 487 ms
+2020-04-15 22:04:24.302 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-04-15 22:04:24.830 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-15 22:04:25.270 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 2.043 seconds (JVM running for 483.751)
+2020-04-15 22:04:33.642 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-15 22:04:33.645 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-06-15 22:06:36.342 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-06-15 22:06:36.395 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-06-15 22:06:36.396 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-06-15 22:06:36.396 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-06-15 22:06:36.886 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-06-15 22:06:36.887 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-06-15 22:06:36.887 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-06-15 22:06:36.937 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 538 ms
+2020-06-15 22:06:37.490 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-06-15 22:06:38.027 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-15 22:06:38.463 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 2.113 seconds (JVM running for 616.943)
+2020-06-15 22:06:42.825 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-15 22:06:42.829 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-08-15 22:08:40.189 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Start the Spring Boot Application
+2020-08-15 22:08:40.246 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Starting SpringBootSecurityv1Application on DESKTOP-06092015 with PID 16064 (C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12\target\classes started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-08-15 22:08:40.246 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-08-15 22:08:40.246 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - The following profiles are active: dev
+2020-08-15 22:08:40.682 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-08-15 22:08:40.683 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-08-15 22:08:40.683 [restartedMain] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-08-15 22:08:40.729 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 481 ms
+2020-08-15 22:08:41.234 [restartedMain] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-08-15 22:08:41.781 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-15 22:08:42.208 [restartedMain] INFO  com.example.demo.SpringBootSecurityv1Application - Started SpringBootSecurityv1Application in 2.009 seconds (JVM running for 740.689)
+2020-08-15 22:08:54.688 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-15 22:08:54.691 [https-jsse-nio-8443-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-10-15 22:10:15.203 [main] INFO  com.example.demo.controller.ProfileControllerTest - Starting ProfileControllerTest on DESKTOP-06092015 with PID 12836 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-10-15 22:10:15.219 [main] DEBUG com.example.demo.controller.ProfileControllerTest - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-10-15 22:10:15.221 [main] INFO  com.example.demo.controller.ProfileControllerTest - The following profiles are active: dev
+2020-10-15 22:10:18.247 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-10-15 22:10:18.247 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-10-15 22:10:18.248 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-10-15 22:10:18.796 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3539 ms
+2020-10-15 22:10:23.571 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-10-15 22:10:26.219 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-15 22:10:27.083 [main] INFO  com.example.demo.controller.ProfileControllerTest - Started ProfileControllerTest in 12.296 seconds (JVM running for 14.793)
+2020-10-15 22:10:28.833 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Starting SpringBootSecurityv1ApplicationTests on DESKTOP-06092015 with PID 12836 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-10-15 22:10:28.834 [main] DEBUG com.example.demo.SpringBootSecurityv1ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-10-15 22:10:28.835 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - The following profiles are active: dev
+2020-10-15 22:10:30.195 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-10-15 22:10:31.892 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-15 22:10:31.972 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Started SpringBootSecurityv1ApplicationTests in 3.2 seconds (JVM running for 19.682)
+2020-18-15 22:18:14.185 [main] INFO  com.example.demo.controller.ProfileControllerTest - Starting ProfileControllerTest on DESKTOP-06092015 with PID 18984 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-18-15 22:18:14.202 [main] DEBUG com.example.demo.controller.ProfileControllerTest - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-18-15 22:18:14.203 [main] INFO  com.example.demo.controller.ProfileControllerTest - The following profiles are active: dev
+2020-18-15 22:18:17.715 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-18-15 22:18:17.716 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - Code archive: C:\Users\Harshesh\.m2\repository\org\springframework\boot\spring-boot\2.2.6.RELEASE\spring-boot-2.2.6.RELEASE.jar
+2020-18-15 22:18:17.717 [main] DEBUG com.example.demo.SpringBootSecurityv1Application$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-18-15 22:18:18.429 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4188 ms
+2020-18-15 22:18:23.060 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-18-15 22:18:25.304 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-18-15 22:18:25.861 [main] INFO  com.example.demo.controller.ProfileControllerTest - Started ProfileControllerTest in 12.24 seconds (JVM running for 14.978)
+2020-18-15 22:18:26.918 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Starting SpringBootSecurityv1ApplicationTests on DESKTOP-06092015 with PID 18984 (started by Harshesh in C:\Users\Harshesh\Documents\STS_Workspace_4\BoMGenerationAWSv12)
+2020-18-15 22:18:26.919 [main] DEBUG com.example.demo.SpringBootSecurityv1ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-18-15 22:18:26.920 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - The following profiles are active: dev
+2020-18-15 22:18:28.051 [main] INFO  com.example.demo.AppInitializator - AppInitializator initialization logic ...
+2020-18-15 22:18:29.515 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-18-15 22:18:29.586 [main] INFO  com.example.demo.SpringBootSecurityv1ApplicationTests - Started SpringBootSecurityv1ApplicationTests in 2.714 seconds (JVM running for 18.703)
