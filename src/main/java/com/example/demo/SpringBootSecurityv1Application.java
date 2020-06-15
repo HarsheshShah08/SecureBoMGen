@@ -1,18 +1,30 @@
 package com.example.demo;
 
+import java.io.File;
+
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.tomcat.util.descriptor.web.SecurityCollection;
 import org.apache.tomcat.util.descriptor.web.SecurityConstraint;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.example.demo.controller.ProfileController;
+
 import org.apache.logging.log4j.*;
 
+
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan({"demo","controller"})
 @SpringBootApplication
 public class SpringBootSecurityv1Application {
 
@@ -20,6 +32,7 @@ public class SpringBootSecurityv1Application {
 	public static void main(String[] args) {
 		
 		logger.debug("Start the Spring Boot Application");
+		new File(ProfileController.UPLOADED_FOLDER).mkdir();
 		SpringApplication.run(SpringBootSecurityv1Application.class, args);
 	}
 	
