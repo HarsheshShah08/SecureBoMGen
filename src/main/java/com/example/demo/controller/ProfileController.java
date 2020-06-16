@@ -41,9 +41,9 @@ public class ProfileController {
 	@Autowired
 	InsertPreviousBoM pBoM;
 	
-	public static String UPLOADED_FOLDER = System.getProperty("user.dir")+"\\uploads\\";// = "C:\\files\\";
+	public static String UPLOADED_FOLDER = System.getProperty("user.dir")+File.separator+"uploads";// = "C:\\files\\";
 	public static String sLoggedUser;
-
+	
     @GetMapping("index")
     public String index(){
         return "bomGeneration/index";
@@ -68,11 +68,10 @@ public class ProfileController {
 	                byte[] bytes = file.getBytes();
 	                String final_path= UPLOADED_FOLDER; //-- Hard coded path
 	                if(i==0) {
-	                	final_path = final_path+ "\\R\\";
+	                	final_path = final_path+ File.separator+"R"+File.separator;
 	                	CAD = "REVIT";
 	                }else if(i==1){
-	                	final_path = final_path + "\\H\\";
-	                	//final_path = "H\\";
+	                	final_path = final_path + File.separator+"H"+File.separator;
 	                	CAD = "HSB";
 	                }
 	                File dir = new File(final_path);
@@ -103,7 +102,7 @@ public class ProfileController {
 		
 	        try {
 		        //String sap_path = "SAP\\";
-		        String sap_path = UPLOADED_FOLDER+"\\SAP\\";//"\\src\\main\\resources\\SAP\\";
+		        String sap_path = UPLOADED_FOLDER+ File.separator+"SAP"+File.separator;//"\\src\\main\\resources\\SAP\\";
 	            File dir = new File(sap_path);
 	            if (!dir.exists())
 	                dir.mkdirs();
